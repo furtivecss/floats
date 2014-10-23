@@ -4,7 +4,11 @@ An extensible collection of float utilities. Used in [furtive.css](http://furtiv
 
 ## Installation
 
-Using [rework-npm](https://github.com/reworkcss/rework-npm):
+It's recommended to use [rework-npm](https://github.com/reworkcss/rework-npm):
+
+```
+npm install --save furtive-floats
+```
 
 ```javascript
 var rework = require('rework'),
@@ -12,12 +16,6 @@ var rework = require('rework'),
 
 var output = rework('@import "furtive-float";', { source: 'my-file.css' })
     .use(reworkNPM());
-```
-
-Or, through npm the old-fashioned way:
-
-```
-npm install --save furtive-float
 ```
 
 ## Usage
